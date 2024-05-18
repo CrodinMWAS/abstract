@@ -6,9 +6,9 @@
 export default {
     props:['daynumber','month','year','isPassed'],
     methods: {
-        handleDayClick(){
+        handleDayClick(e){
             if (!this.isPassed) {
-                this.$emit("daySelected",this.year,this.month,this.daynumber)
+                this.$emit("daySelected",e,this.year,this.month,this.daynumber)
             }
         }  
     },

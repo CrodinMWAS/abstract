@@ -19,7 +19,6 @@
     --yellowColor: #ffc600;
     --blueColor: #00e8fc;
     --whiteColor: #fafafa;
-    --blackColor: #212121;
   }
 
   body {

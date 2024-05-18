@@ -8,9 +8,9 @@
                     <h1>{{ getCurrentYear }} - {{ months[getCurrentMonth] }}</h1>
                     <div id="buttons">
                         <!-- This Sets back the currentmonth by 1 -->
-                        <button @click="this.dateObject = getPreviousDate">-</button>
+                        <button @click="changeCalendar(0)">-</button>
                         <!-- This increases the currentmonth by 1 -->
-                        <button @click="this.dateObject = getNextDate">+</button>
+                        <button @click="changeCalendar(1)">+</button>
                     </div>
                 </div>
                 <div id="days">
@@ -28,7 +28,7 @@
                         :month="getPreviousDate.getMonth()" 
                         :year="getPreviousDate.getFullYear()"
                         :isPassed="didTheDayPass(day, 0)"
-                        @daySelected="(year,month,day) => handleSelection(year,month,day)"
+                        @daySelected="(e,year,month,day) => handleSelection(e,year,month,day)"
                     ></Day>
                     <Day 
                         v-for="day in getCurrentMonthLength" 
@@ -37,16 +37,16 @@
                         :month="this.getCurrentMonth" 
                         :year="this.getCurrentYear" 
                         :isPassed="didTheDayPass(day, 1)"
-                        @daySelected="(year,month,day) => handleSelection(year,month,day)"
+                        @daySelected="(e,year,month,day) => handleSelection(e,year,month,day)"
                     ></Day>
                     <Day 
                         v-for="day in days.slice(getCurrentMonthLastDay).length" 
                         :key="day.id" 
                         :daynumber="day"
-                        :month="getNextDate.getMonth()" 
+                        :month="getNextDate.getMonth()"
                         :year="getNextDate.getFullYear()" 
                         :isPassed="didTheDayPass(day, 2)"
-                        @daySelected="(year,month,day) => handleSelection(year,month,day)"
+                        @daySelected="(e,year,month,day) => handleSelection(e,year,month,day)"
                     ></Day>
                     <!-- The slice is needed due to the limitation that the i = 0. It slices the days array, and gives back its length. Thats how many days r needed to b generated. -->
                 </div>
@@ -67,6 +67,8 @@ export default {
             months: ["Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"], /*The list of Months*/
             days: [1,2,3,4,5,6], /*List of days to generate the days after the current months lastday*/
             selectedDay: new Date("2000-01-01"),
+            isADaySelected: false,
+            selectedDayDom: null,
         }
     },
     computed: {
@@ -163,9 +165,31 @@ export default {
             }
 
         },
-        handleSelection(year,month,day){
-            this.selectedDay = new Date(year, month ,day)
-            console.log(this.selectedDay)
+        handleSelection(e,year,month,day){
+            if (!this.isADaySelected || this.selectedDay.getFullYear() == year && this.selectedDay.getMonth() == month && this.selectedDay.getDate() == day) {
+                e.srcElement.closest(".day").children[0].classList.toggle("selectedDay")
+                this.selectedDayDom = e.srcElement.closest(".day").children[0]
+                console.log(this.selectedDayDom)
+                this.isADaySelected = !this.isADaySelected
+                this.selectedDay = new Date(year, month ,day)
+                console.log(this.selectedDay)
+            }
+        },
+        changeCalendar(instance){
+            this.selectedDay = new Date("2000-01-01");
+            this.isADaySelected = false;
+            this.selectedDayDom.classList.remove("selectedDay")
+            console.log(this.selectedDayDom)
+            switch (instance) {
+                case 0:
+                    this.dateObject = this.getPreviousDate
+                    break;
+                case 1:
+                    this.dateObject = this.getNextDate
+                    break;
+                default:
+                    break;
+            }
         }
     }
 }
@@ -209,7 +233,6 @@ export default {
     #calendar #days{
         display: grid;
         grid-template-columns: repeat(7, calc(100% / 7));
-        grid-template-rows: repeat(6, calc(100% / 6));
         height: 85%
     }
 
@@ -234,7 +257,7 @@ export default {
         border-radius: 50%;
         text-align: center;
         padding: 5px;
-        transition: all 0.2s ease-in-out;
+        /* transition: all 0.2s ease-in-out; */
     }
 
     .day .circle:hover {
