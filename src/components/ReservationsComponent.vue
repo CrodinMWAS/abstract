@@ -29,6 +29,7 @@
                         :year="getPreviousDate.getFullYear()"
                         :isPassed="didTheDayPass(day, 0)"
                         @daySelected="(e,year,month,day) => handleSelection(e,year,month,day)"
+                        class="notThisMonth"
                     ></Day>
                     <Day 
                         v-for="day in getCurrentMonthLength" 
@@ -38,6 +39,7 @@
                         :year="this.getCurrentYear" 
                         :isPassed="didTheDayPass(day, 1)"
                         @daySelected="(e,year,month,day) => handleSelection(e,year,month,day)"
+                        :class="{today: currentDate.getDate() == day && currentDate.getMonth() == getCurrentMonth}"
                     ></Day>
                     <Day 
                         v-for="day in days.slice(getCurrentMonthLastDay).length" 
@@ -47,6 +49,7 @@
                         :year="getNextDate.getFullYear()" 
                         :isPassed="didTheDayPass(day, 2)"
                         @daySelected="(e,year,month,day) => handleSelection(e,year,month,day)"
+                        class="notThisMonth monthAfter"
                     ></Day>
                     <!-- The slice is needed due to the limitation that the i = 0. It slices the days array, and gives back its length. Thats how many days r needed to b generated. -->
                 </div>
@@ -167,9 +170,8 @@ export default {
         },
         handleSelection(e,year,month,day){
             if (!this.isADaySelected || this.selectedDay.getFullYear() == year && this.selectedDay.getMonth() == month && this.selectedDay.getDate() == day) {
-                e.srcElement.closest(".day").children[0].classList.toggle("selectedDay")
                 this.selectedDayDom = e.srcElement.closest(".day").children[0]
-                console.log(this.selectedDayDom)
+                this.selectedDayDom.classList.toggle("selectedDay")
                 this.isADaySelected = !this.isADaySelected
                 this.selectedDay = new Date(year, month ,day)
                 console.log(this.selectedDay)
@@ -178,8 +180,10 @@ export default {
         changeCalendar(instance){
             this.selectedDay = new Date("2000-01-01");
             this.isADaySelected = false;
-            this.selectedDayDom.classList.remove("selectedDay")
-            console.log(this.selectedDayDom)
+            if (this.selectedDayDom != null) {
+                this.selectedDayDom.classList.remove("selectedDay")
+            }
+            this.selectedDayDom = null
             switch (instance) {
                 case 0:
                     this.dateObject = this.getPreviousDate
@@ -195,7 +199,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     #reservationArea{
         display: flex;
         flex-direction: column;
@@ -212,7 +216,6 @@ export default {
         max-height: 600px;
         border-radius: 15px;
     }
-
 
     #calendarHeader{
         display: flex;
@@ -243,6 +246,24 @@ export default {
         text-align: center;
     }
 
+    .today{
+        outline: 2px solid var(--purpleColor)
+    }
+    
+    .notThisMonth{
+        background-image: linear-gradient(#151515, var(--blackColor));
+        color: rgba(128, 128, 128, 0.5);
+    }
+
+    .monthAfter{
+        background-image: linear-gradient(var(--blackColor), #151515);
+    }
+
+    #days .notThisMonth .passedDay{
+        outline: 2px solid rgba(128, 128, 128, 0.5);
+        color: rgba(128, 128, 128, 0.5);
+    }
+
     .day h1{
         margin: 0;
         font-weight: normal;
@@ -257,7 +278,6 @@ export default {
         border-radius: 50%;
         text-align: center;
         padding: 5px;
-        /* transition: all 0.2s ease-in-out; */
     }
 
     .day .circle:hover {

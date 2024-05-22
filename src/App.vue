@@ -19,14 +19,22 @@
     --yellowColor: #ffc600;
     --blueColor: #00e8fc;
     --whiteColor: #fafafa;
+    --grayColor: #EAEAEA;
   }
 
   body {
     font-family: "Roboto Condensed", sans-serif;
-    color: #fafafa;
+    /* color: #fafafa; */
+    color: var(--blackColor);
     margin: 0;
     padding: 0;
-    background-color: black;
+    overflow-x: hidden;
+    /* background-color: var(--blackColor) */
+    /* background-color: var(--grayColor) */
+    background-image: url('./assets/concreto-branco-ou-material-de-cimento-em-textura-de-fundo-de-parede-abstrata_43029-1642.avif');
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(3px);
   }
 
   #app {
