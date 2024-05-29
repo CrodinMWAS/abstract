@@ -199,12 +199,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
     #reservationArea{
         display: flex;
         flex-direction: column;
         align-items: center;
         user-select: none;
+        color: var(--whiteColor);
     }
 
     #calendar{
