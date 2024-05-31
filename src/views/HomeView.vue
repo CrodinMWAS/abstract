@@ -81,7 +81,12 @@
 
         </section>
 
-        <section id="third"></section>
+        <section id="references">
+            <h1 class="title">Referenciák</h1>
+            <div id="cuts">
+                <div class="cut" v-for="item in cuts" :key="item.id" :style="getBackgroundImage(item)"></div>
+            </div>
+        </section>
     </main>
     <!-- <CalendarComponent></CalendarComponent> -->
 </template>
@@ -113,6 +118,17 @@ export default {
             lineBg: "#ffc600",
             textColor: "transparent",
             shownSvg: 0,
+            cuts: [
+                "C1.jpeg",
+                "C2.jpeg",
+                "C3.jpeg",
+                "C4.jpeg",
+                "C5.jpeg",
+                "C6.jpeg",
+                "C7.jpeg",
+                "C8.jpeg",
+                "C9.jpeg"
+            ],
         }
     },
     created() {
@@ -122,6 +138,11 @@ export default {
         })
     },
     methods: {
+        getBackgroundImage(item) {
+            return {
+                backgroundImage: `url(${require(`@/assets/Cuts/${item}`)})`
+            };
+        },
         displayPrice(){
             if (this.firstServiceTop + 85 < 220 && this.firstServiceTop + 85 > -440) {
                 this.titleH1 = "Hajvágás"
@@ -169,9 +190,23 @@ export default {
 </script>
 
 <style scoped>
-    #third{
-        background-color: red;
-        height: 100vh;
+    .cut{
+        width: 500px;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 1px 1px 10px var(--purpleColor);
+        border-radius: 25%;
+    }
+
+    #cuts{
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
     }
     #topContent{
         display: flex;
@@ -350,7 +385,7 @@ export default {
         flex-direction: column;
     }
     
-    #services .title{
+    .title{
         font-size: clamp(42px, 8vw + 1rem, 60px);
         text-align: left;
         margin: 0 40px;
@@ -529,7 +564,7 @@ export default {
             margin: 0;
             max-height: 97px;
         }
-        #services .title{
+        .title{
             margin-right: 15%;
             font-size: clamp(30px, 9vw + 1rem, 165px);
             text-align: center;
