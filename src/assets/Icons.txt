@@ -7,3 +7,7 @@
 <a href="https://www.flaticon.com/free-icons/barber" title="barber icons">Barber icons created by Marz Gallery - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/hair" title="hair icons">Hair icons created by Marz Gallery - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/barber" title="barber icons">Barber icons created by Marz Gallery - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/shaving-machine" title="shaving machine icons">Shaving machine icons created by Erifqi Zetiawan - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/barber-scissor" title="barber scissor icons">Barber scissor icons created by Erifqi Zetiawan - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/personal-hygiene" title="personal hygiene icons">Personal hygiene icons created by Erifqi Zetiawan - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/comb-and-scissor" title="comb and scissor icons">Comb and scissor icons created by Erifqi Zetiawan - Flaticon</a>
