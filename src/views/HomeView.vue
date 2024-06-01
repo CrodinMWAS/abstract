@@ -12,7 +12,7 @@
                     <span class="bottom-key-1"></span>
                     <span class="bottom-key-2"></span>
                 </a>
-                <svg id="cut" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"  preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"> <path id="myClip" d="M2820 4934 c-14 -2 -68 -11 -120 -20 -132 -22 -326 -88 -515 -174 -403 -184 -491 -217 -638 -240 -100 -16 -238 -8 -342 21 -44 12 -93 22 -109 22 -35 0 -66 -34 -66 -71 0 -41 39 -161 82 -252 38 -78 40 -87 28 -115 -42 -98 -91 -262 -101 -340 -16 -124 -6 -311 26 -465 27 -130 115 -404 184 -574 40 -97 41 -100 53 -297 11 -188 11 -207 -11 -381 -32 -252 -40 -589 -17 -748 35 -236 115 -408 261 -556 96 -98 194 -168 322 -229 62 -30 84 -46 99 -72 48 -90 211 -193 369 -234 216 -55 491 -23 668 76 62 35 148 114 171 157 14 26 37 43 100 73 188 91 365 243 449 386 50 86 95 204 120 319 19 83 22 128 22 360 0 223 -4 296 -24 459 -24 185 -24 202 -13 387 l12 195 59 152 c143 370 200 610 201 838 0 169 -40 351 -108 484 -22 44 -25 61 -23 138 9 318 -267 584 -704 679 -87 19 -373 33 -435 22z m280 -154 c168 -18 358 -80 464 -153 l37 -25 -58 -45 c-246 -196 -697 -364 -1085 -406 -345 -38 -711 21 -971 156 l-52 27 80 7 c162 14 294 58 605 202 469 215 686 268 980 237z m683 -398 c15 -34 21 -68 21 -122 1 -66 -3 -84 -32 -143 -108 -218 -449 -423 -847 -507 -144 -31 -411 -38 -565 -16 -360 53 -671 192 -885 397 -79 76 -165 181 -194 237 -12 22 -9 21 41 -8 141 -84 336 -157 522 -196 165 -35 488 -44 676 -20 418 55 837 216 1107 425 l88 68 23 -34 c13 -19 33 -56 45 -81z m-2433 -491 l90 -89 0 -51 c0 -28 18 -133 39 -234 53 -244 54 -258 10 -303 -57 -61 -209 -155 -209 -129 0 2 -13 51 -29 107 -17 57 -38 144 -47 193 -21 111 -24 326 -5 410 16 72 50 185 56 185 2 0 45 -40 95 -89z m2549 -8 c46 -171 50 -317 15 -505 -25 -136 -72 -298 -86 -298 -20 0 -133 74 -180 118 -43 40 -48 49 -48 89 0 24 18 126 40 228 22 102 40 199 40 217 0 28 15 48 93 130 50 53 95 97 98 97 4 1 16 -34 28 -76z m-2161 -261 c522 -262 1154 -267 1673 -13 100 49 101 49 94 22 -30 -118 -65 -311 -65 -356 0 -35 7 -70 19 -94 26 -50 101 -123 179 -174 62 -41 63 -42 57 -82 -2 -22 -10 -125 -15 -230 -19 -329 -28 -446 -38 -458 -6 -7 -58 -100 -117 -207 -120 -219 -164 -284 -207 -306 -37 -19 -75 -9 -296 80 -87 35 -207 76 -267 91 -96 24 -121 27 -224 22 -136 -5 -217 -27 -441 -117 -212 -84 -251 -95 -288 -76 -40 21 -87 87 -168 236 -37 69 -89 163 -116 209 l-49 85 -14 200 c-7 111 -16 260 -20 331 -3 72 -8 141 -11 155 -4 22 4 31 58 67 82 54 152 121 177 172 34 66 28 140 -38 429 -11 46 -16 82 -13 80 4 -2 63 -31 130 -66z m-118 -1940 c68 -85 117 -115 194 -120 78 -5 126 8 337 93 360 145 461 145 833 -5 205 -82 248 -94 326 -88 108 8 185 84 302 299 76 140 72 142 88 -46 54 -650 -87 -964 -525 -1171 -75 -36 -101 -54 -114 -77 -50 -96 -158 -171 -298 -209 -109 -29 -296 -29 -406 1 -139 37 -247 112 -298 208 -13 23 -39 41 -114 77 -299 141 -447 322 -510 622 -23 108 -30 349 -16 529 7 83 14 158 17 168 4 14 25 -15 72 -103 37 -67 87 -147 112 -178z"/> <path d="M2486 1583 c-27 -14 -104 -38 -169 -55 -167 -41 -202 -60 -240 -133 -14 -27 -20 -59 -21 -100 0 -112 75 -205 189 -236 57 -16 199 -5 263 19 l52 20 53 -20 c35 -14 85 -22 152 -25 98 -5 101 -4 164 28 77 41 116 92 132 169 19 95 -19 184 -96 227 -22 12 -90 34 -152 48 -61 15 -139 40 -173 56 -75 35 -91 35 -154 2z m131 -162 c26 -10 93 -28 148 -41 122 -27 145 -40 145 -81 0 -43 -17 -69 -55 -85 -52 -21 -109 -17 -206 16 l-89 31 -89 -31 c-97 -33 -154 -37 -206 -16 -38 16 -55 42 -55 85 0 42 22 54 160 85 63 15 129 33 145 41 40 18 47 18 102 -4z"/> </g> </svg>
+                <svg id="heroGlyph" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"  preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"> <path id="myClip" d="M2820 4934 c-14 -2 -68 -11 -120 -20 -132 -22 -326 -88 -515 -174 -403 -184 -491 -217 -638 -240 -100 -16 -238 -8 -342 21 -44 12 -93 22 -109 22 -35 0 -66 -34 -66 -71 0 -41 39 -161 82 -252 38 -78 40 -87 28 -115 -42 -98 -91 -262 -101 -340 -16 -124 -6 -311 26 -465 27 -130 115 -404 184 -574 40 -97 41 -100 53 -297 11 -188 11 -207 -11 -381 -32 -252 -40 -589 -17 -748 35 -236 115 -408 261 -556 96 -98 194 -168 322 -229 62 -30 84 -46 99 -72 48 -90 211 -193 369 -234 216 -55 491 -23 668 76 62 35 148 114 171 157 14 26 37 43 100 73 188 91 365 243 449 386 50 86 95 204 120 319 19 83 22 128 22 360 0 223 -4 296 -24 459 -24 185 -24 202 -13 387 l12 195 59 152 c143 370 200 610 201 838 0 169 -40 351 -108 484 -22 44 -25 61 -23 138 9 318 -267 584 -704 679 -87 19 -373 33 -435 22z m280 -154 c168 -18 358 -80 464 -153 l37 -25 -58 -45 c-246 -196 -697 -364 -1085 -406 -345 -38 -711 21 -971 156 l-52 27 80 7 c162 14 294 58 605 202 469 215 686 268 980 237z m683 -398 c15 -34 21 -68 21 -122 1 -66 -3 -84 -32 -143 -108 -218 -449 -423 -847 -507 -144 -31 -411 -38 -565 -16 -360 53 -671 192 -885 397 -79 76 -165 181 -194 237 -12 22 -9 21 41 -8 141 -84 336 -157 522 -196 165 -35 488 -44 676 -20 418 55 837 216 1107 425 l88 68 23 -34 c13 -19 33 -56 45 -81z m-2433 -491 l90 -89 0 -51 c0 -28 18 -133 39 -234 53 -244 54 -258 10 -303 -57 -61 -209 -155 -209 -129 0 2 -13 51 -29 107 -17 57 -38 144 -47 193 -21 111 -24 326 -5 410 16 72 50 185 56 185 2 0 45 -40 95 -89z m2549 -8 c46 -171 50 -317 15 -505 -25 -136 -72 -298 -86 -298 -20 0 -133 74 -180 118 -43 40 -48 49 -48 89 0 24 18 126 40 228 22 102 40 199 40 217 0 28 15 48 93 130 50 53 95 97 98 97 4 1 16 -34 28 -76z m-2161 -261 c522 -262 1154 -267 1673 -13 100 49 101 49 94 22 -30 -118 -65 -311 -65 -356 0 -35 7 -70 19 -94 26 -50 101 -123 179 -174 62 -41 63 -42 57 -82 -2 -22 -10 -125 -15 -230 -19 -329 -28 -446 -38 -458 -6 -7 -58 -100 -117 -207 -120 -219 -164 -284 -207 -306 -37 -19 -75 -9 -296 80 -87 35 -207 76 -267 91 -96 24 -121 27 -224 22 -136 -5 -217 -27 -441 -117 -212 -84 -251 -95 -288 -76 -40 21 -87 87 -168 236 -37 69 -89 163 -116 209 l-49 85 -14 200 c-7 111 -16 260 -20 331 -3 72 -8 141 -11 155 -4 22 4 31 58 67 82 54 152 121 177 172 34 66 28 140 -38 429 -11 46 -16 82 -13 80 4 -2 63 -31 130 -66z m-118 -1940 c68 -85 117 -115 194 -120 78 -5 126 8 337 93 360 145 461 145 833 -5 205 -82 248 -94 326 -88 108 8 185 84 302 299 76 140 72 142 88 -46 54 -650 -87 -964 -525 -1171 -75 -36 -101 -54 -114 -77 -50 -96 -158 -171 -298 -209 -109 -29 -296 -29 -406 1 -139 37 -247 112 -298 208 -13 23 -39 41 -114 77 -299 141 -447 322 -510 622 -23 108 -30 349 -16 529 7 83 14 158 17 168 4 14 25 -15 72 -103 37 -67 87 -147 112 -178z"/> <path d="M2486 1583 c-27 -14 -104 -38 -169 -55 -167 -41 -202 -60 -240 -133 -14 -27 -20 -59 -21 -100 0 -112 75 -205 189 -236 57 -16 199 -5 263 19 l52 20 53 -20 c35 -14 85 -22 152 -25 98 -5 101 -4 164 28 77 41 116 92 132 169 19 95 -19 184 -96 227 -22 12 -90 34 -152 48 -61 15 -139 40 -173 56 -75 35 -91 35 -154 2z m131 -162 c26 -10 93 -28 148 -41 122 -27 145 -40 145 -81 0 -43 -17 -69 -55 -85 -52 -21 -109 -17 -206 16 l-89 31 -89 -31 c-97 -33 -154 -37 -206 -16 -38 16 -55 42 -55 85 0 42 22 54 160 85 63 15 129 33 145 41 40 18 47 18 102 -4z"/> </g> </svg>
             </div>
         </header>
 
@@ -23,9 +23,19 @@
             <svg class="bigIcon" v-else-if="shownSvg == 3" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"  preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"> <path d="M3085 4580 l-270 -270 128 -128 128 -128 -28 -54 c-50 -97 -35 -199 43 -280 l34 -36 -90 -209 -90 -210 -88 -88 c-48 -49 -161 -153 -252 -231 -324 -280 -491 -436 -933 -876 -443 -439 -655 -660 -879 -916 -125 -142 -383 -450 -441 -527 -64 -84 -49 -138 70 -246 75 -69 112 -82 165 -57 36 18 429 344 631 524 550 490 1258 1210 1729 1757 80 94 186 209 235 256 l88 86 208 88 207 89 38 -37 c76 -74 177 -88 275 -39 l56 28 128 -128 128 -128 272 272 273 273 -92 92 -92 93 -33 -32 -34 -32 -554 554 c-305 305 -555 559 -555 564 0 6 12 23 27 38 l27 28 -89 90 c-49 50 -92 90 -95 90 -3 0 -127 -121 -275 -270z m315 125 l34 -35 -214 -215 -214 -215 -38 37 -38 37 212 213 c117 117 215 213 218 213 4 0 21 -16 40 -35z m490 -820 l555 -555 -28 -27 -27 -28 -560 560 -559 559 21 23 c12 13 26 23 32 23 6 0 261 -250 566 -555z m417 -692 l-27 -28 -555 555 c-305 305 -555 559 -555 564 0 5 10 20 22 33 l22 24 560 -561 561 -560 -28 -27z m-105 -105 l-22 -23 -560 560 -559 559 21 24 22 23 560 -560 561 -561 -23 -22z m-892 677 l-24 -25 29 -30 29 -30 26 25 26 25 167 -168 168 -168 -26 -24 -25 -24 27 -28 27 -28 26 25 26 25 103 -104 103 -103 -35 -16 c-43 -21 -97 -22 -140 -3 -18 8 -181 164 -369 352 -292 294 -338 345 -347 381 -12 46 -7 84 16 122 l15 24 101 -101 101 -101 -24 -26z m56 -340 c72 -42 101 -137 74 -236 -15 -53 -76 -114 -141 -143 l-57 -24 -112 113 -112 112 23 54 c29 72 75 117 140 140 66 24 126 19 185 -16z m1159 -275 l-215 -215 -37 38 -38 37 215 215 214 215 38 -37 38 -37 -215 -216z m-1450 -80 l100 -100 -68 -67 -67 -68 -102 102 -103 103 65 65 c35 36 67 65 70 65 3 0 50 -45 105 -100z m-272 -268 l57 -58 -28 -27 -28 -27 -59 60 -59 60 24 25 c13 14 26 25 30 25 3 0 31 -26 63 -58z m-1879 -1881 l118 -118 -124 -105 c-188 -160 -360 -300 -376 -305 -17 -7 -152 124 -152 147 0 19 393 500 409 500 4 0 60 -53 125 -119z"/> </g> </svg> 
             <svg class="bigIcon" v-else-if="shownSvg == 4" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"  preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"> <path d="M1480 4825 c-149 -42 -265 -136 -330 -269 -73 -147 -75 -304 -6 -448 l26 -53 -49 -49 -49 -49 -50 21 c-220 95 -427 59 -588 -102 -79 -79 -117 -149 -140 -254 -19 -91 -18 -135 6 -228 48 -188 194 -328 395 -379 76 -19 240 -19 342 0 107 21 198 19 276 -5 58 -18 232 -115 345 -192 l43 -30 -40 -43 c-100 -109 -126 -187 -116 -354 8 -137 -9 -236 -52 -312 -83 -145 -291 -365 -663 -703 -140 -128 -282 -265 -316 -305 -160 -191 -247 -419 -230 -601 11 -118 16 -126 106 -155 148 -46 276 -41 403 18 170 79 335 278 367 444 14 72 29 89 120 135 75 38 99 67 111 134 11 59 30 80 77 89 88 16 121 61 142 195 5 37 16 70 25 76 8 6 43 17 78 24 70 14 111 32 147 66 72 67 216 90 370 59 157 -32 328 -101 386 -157 l31 -29 22 27 c11 15 21 30 21 34 0 4 -160 157 -356 340 -364 340 -401 382 -392 441 2 17 83 -54 400 -350 219 -204 401 -371 406 -371 5 0 19 11 32 25 24 25 24 26 4 44 -10 10 -197 184 -414 386 -217 202 -397 371 -398 376 -2 5 5 23 15 39 l19 30 405 -376 c222 -207 413 -385 425 -395 20 -19 21 -19 47 9 l28 29 -408 380 c-224 209 -416 390 -426 401 -18 19 -18 22 -2 46 10 14 22 26 27 26 8 0 624 -569 805 -744 l53 -50 25 24 c14 13 25 28 24 34 0 6 -83 88 -184 181 -290 268 -312 289 -279 269 189 -118 309 -219 1230 -1036 528 -469 968 -859 977 -867 15 -12 21 -11 42 9 14 13 25 27 25 31 0 5 -317 419 -705 921 l-705 912 20 21 20 21 -166 154 c-155 144 -214 211 -468 525 -24 29 -30 42 -16 30 20 -16 528 -487 662 -614 l38 -35 25 24 c14 13 25 27 25 31 0 4 -204 197 -452 429 -249 232 -454 425 -456 430 -2 4 8 20 20 35 l23 27 464 -433 464 -433 24 28 c13 16 23 32 21 36 -2 4 -209 199 -461 434 l-457 427 22 29 c12 17 25 29 29 28 3 -2 204 -187 445 -412 241 -225 449 -418 462 -429 l22 -20 25 23 c14 13 25 26 25 30 0 3 -207 199 -460 435 -253 236 -460 434 -460 440 0 6 10 21 23 33 l22 21 360 -336 c198 -184 408 -380 466 -434 l106 -98 27 28 27 29 -443 412 c-244 227 -454 424 -468 436 l-25 24 27 27 c27 27 27 27 50 7 12 -10 222 -205 466 -433 l444 -414 29 29 28 29 -437 407 c-241 224 -451 421 -467 438 l-29 30 26 27 26 26 354 -330 c194 -181 405 -378 468 -436 l114 -107 23 27 c12 16 22 31 23 34 0 3 -207 198 -460 434 -253 236 -460 432 -460 435 0 4 11 17 25 30 l25 24 38 -36 c20 -19 206 -191 412 -383 206 -191 399 -371 427 -398 l53 -51 25 24 c14 13 25 27 25 31 0 6 -619 588 -910 856 -13 11 -11 16 12 39 23 24 28 25 45 13 11 -8 219 -200 461 -426 243 -227 446 -413 450 -413 5 0 19 11 32 25 l24 26 -29 28 c-17 15 -225 209 -463 431 l-433 403 28 29 27 28 56 -53 c30 -30 224 -210 430 -402 206 -192 389 -361 406 -377 l30 -28 27 28 28 29 -418 389 c-230 214 -437 407 -461 429 l-43 40 28 28 29 27 335 -312 c183 -171 389 -363 457 -426 l123 -116 29 30 28 29 -414 385 c-228 212 -433 404 -457 428 l-42 43 28 25 28 24 297 -277 c163 -153 369 -345 456 -427 l159 -149 24 29 c12 16 23 31 23 34 0 3 -203 194 -450 424 l-450 420 27 28 27 28 40 -38 c23 -21 210 -196 416 -387 206 -192 392 -364 412 -383 l38 -36 25 24 c14 13 25 27 25 31 0 4 -199 193 -442 419 -244 227 -444 417 -446 421 -5 13 49 23 74 13 13 -5 213 -186 445 -402 l421 -394 29 28 29 28 -30 31 c-28 29 -30 37 -30 102 0 80 -24 169 -63 236 -38 64 -144 158 -234 208 -101 56 -152 104 -224 210 -75 112 -200 227 -298 277 -72 35 -79 37 -176 37 -97 0 -104 -2 -178 -38 -87 -43 -45 0 -822 -835 -305 -328 -432 -458 -441 -451 -18 15 -169 239 -193 287 -38 75 -43 132 -25 286 20 166 15 287 -15 370 -40 113 -140 239 -246 309 -99 65 -280 94 -395 62z m280 -94 c77 -29 146 -85 208 -166 92 -123 116 -233 93 -432 -19 -160 -16 -260 10 -328 51 -137 405 -606 1011 -1341 249 -303 248 -301 240 -323 -3 -9 -32 -50 -64 -91 -51 -66 -58 -81 -58 -120 0 -25 8 -58 18 -75 10 -16 31 -52 47 -80 l29 -50 -30 25 c-16 14 -125 110 -243 215 -231 205 -242 220 -292 370 -20 61 -23 91 -23 235 -1 149 -3 168 -22 200 -29 49 -340 469 -500 675 -151 194 -225 272 -306 325 -55 36 -83 45 -268 90 -294 70 -469 285 -431 528 26 173 147 311 311 357 73 20 197 14 270 -14z m-855 -796 c137 -36 266 -137 323 -255 18 -36 48 -121 68 -190 48 -170 83 -238 157 -306 98 -91 535 -371 873 -559 l51 -29 6 -80 c4 -44 6 -81 4 -82 -1 -2 -158 101 -347 227 -404 269 -602 391 -685 420 -82 30 -206 36 -316 15 -108 -20 -257 -21 -334 -1 -229 60 -376 275 -336 493 46 255 287 411 536 347z m537 -105 c36 -17 125 -44 199 -61 96 -21 149 -39 188 -62 63 -38 153 -132 270 -281 76 -97 83 -109 72 -129 -7 -12 -76 -88 -154 -169 l-142 -148 -140 95 c-271 182 -301 217 -355 413 -18 64 -48 155 -67 200 l-36 84 44 44 c24 24 46 44 50 44 4 0 36 -14 71 -30z m1081 -1055 c87 -80 107 -105 105 -124 -2 -13 -10 -29 -20 -34 -18 -12 -28 -4 -186 145 l-83 78 21 30 c26 36 13 44 163 -95z m-183 -47 c44 -40 44 -40 10 -23 -57 29 -80 47 -74 56 9 14 17 10 64 -33z m-1448 -1825 c6 -16 12 -62 12 -104 1 -68 -3 -84 -34 -145 -60 -117 -160 -174 -304 -174 -97 0 -99 2 -86 87 32 232 155 360 348 362 48 1 53 -1 64 -26z"/> <path d="M1533 4630 c-63 -13 -116 -44 -161 -95 -157 -178 -46 -480 202 -551 146 -41 293 18 356 143 21 41 25 62 25 143 0 89 -2 99 -34 158 -80 147 -241 231 -388 202z m184 -106 c107 -51 169 -159 161 -279 -5 -83 -38 -133 -109 -169 -123 -61 -276 -5 -355 130 -31 53 -43 152 -24 208 42 128 187 177 327 110z"/> <path d="M3042 2197 c-13 -13 -22 -36 -22 -53 1 -78 99 -107 144 -42 22 30 20 60 -5 92 -27 35 -86 36 -117 3z"/> <path d="M748 3818 c-104 -13 -188 -71 -236 -163 -21 -41 -26 -64 -26 -125 0 -91 22 -147 86 -216 80 -87 168 -126 284 -125 132 1 230 57 283 163 118 235 -107 503 -391 466z m177 -102 c70 -32 109 -68 139 -128 46 -92 32 -191 -35 -255 -94 -89 -262 -87 -368 3 -231 198 -18 506 264 380z"/> <path d="M738 834 c-66 -20 -131 -95 -158 -181 -27 -88 -26 -93 13 -93 113 0 212 88 232 207 8 51 -1 83 -23 82 -9 0 -38 -7 -64 -15z"/> </g> </svg> 
 
-            <div id="titleBox">
+            <div id="bottom">
+                <h1>Jelentkezz be, és mentsd el az adataidat!</h1>
+                <a class="appointmentBtn" href="#">
+                    <span class="top-key"></span>
+                    <span class="text">Bejelentkezés</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                </a>
+            </div>
+
+            <div class="titleBox">
                 <h1 class="title">{{titleH1}}</h1>
-                <div id="smallLine" :style="{backgroundColor: lineBg}"></div>
+                <div class="smallLine" :style="{backgroundColor: lineBg}"></div>
             </div>
 
             <div id="box">
@@ -34,18 +44,22 @@
 
             <div id="barbers">
             <div>
+                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/OlahDani.png')})`, outline: `2px solid ${lineBg}` }"></div>
                 <h1 class="barber">Oláh Dani</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceDani }}</span> Ft</h2>
             </div>
             <div>
+                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/SzaboMark.jpg')})`, outline: `2px solid ${lineBg}` }" ></div>
                 <h1 class="barber">Szabó Márk</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceMark }}</span> Ft</h2>
             </div>
             <div>
+                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/SzaboErik.jpg')})`, outline: `2px solid ${lineBg}` }" ></div>
                 <h1 class="barber">Szabó Erik</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceErik }}</span> Ft</h2>
             </div>
             <div>
+                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/VeressMilan.jpg')})`, outline: `2px solid ${lineBg}` }" ></div>
                 <h1 class="barber">Veress Milán</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceMilan }}</span> Ft</h2>
             </div>
@@ -53,7 +67,7 @@
 
             <div class="service" ref="hair">
                 <div class="iconContainer">
-                    <svg class="circle" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M32 100.641C32 68.391 54.1651 41.3515 84 34.1102V1.28125C36.3772 8.98855 0 50.5392 0 100.641C0 150.742 36.3772 192.293 84 200V167.171C54.1651 159.93 32 132.89 32 100.641ZM200 100.641C200 150.742 163.623 192.293 116 200V167.171C145.835 159.93 168 132.89 168 100.641C168 68.391 145.835 41.3515 116 34.1102V1.28125C163.623 8.98855 200 50.5392 200 100.641Z"/> <defs> <linearGradient id="paint0_linear_231_555" x1="157.5" y1="33.0763" x2="44.7421" y2="148.561" gradientUnits="userSpaceOnUse"> <stop offset="0.0509862" stop-color="#FFB6E1"/> <stop offset="1" stop-color="#FBE3EA"/> </linearGradient> </defs> </svg>
+                    <svg class="circle" id="p" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M32 100.641C32 68.391 54.1651 41.3515 84 34.1102V1.28125C36.3772 8.98855 0 50.5392 0 100.641C0 150.742 36.3772 192.293 84 200V167.171C54.1651 159.93 32 132.89 32 100.641ZM200 100.641C200 150.742 163.623 192.293 116 200V167.171C145.835 159.93 168 132.89 168 100.641C168 68.391 145.835 41.3515 116 34.1102V1.28125C163.623 8.98855 200 50.5392 200 100.641Z"/> <defs> <linearGradient id="paint0_linear_231_555" x1="157.5" y1="33.0763" x2="44.7421" y2="148.561" gradientUnits="userSpaceOnUse"> <stop offset="0.0509862" stop-color="#FFB6E1"/> <stop offset="1" stop-color="#FBE3EA"/> </linearGradient> </defs> </svg>
                     <svg class="serviceIcon" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"  preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"> <path d="M2545 4264 c-440 -33 -760 -111 -1050 -256 -162 -81 -261 -151 -370 -262 -159 -161 -214 -275 -223 -459 -10 -217 48 -406 183 -603 59 -87 181 -214 204 -214 9 0 46 20 82 44 198 133 439 229 699 278 156 30 488 32 625 4 504 -102 811 -399 890 -860 8 -49 15 -104 15 -123 0 -45 16 -73 42 -73 31 0 134 78 224 171 314 325 500 794 481 1218 -12 280 -106 494 -301 686 -230 228 -571 374 -1001 429 -122 15 -409 27 -500 20z"/> <path d="M673 3116 c-108 -118 -188 -262 -224 -406 -19 -75 -21 -102 -16 -230 7 -168 16 -241 98 -870 66 -494 70 -511 118 -495 25 8 23 0 61 240 86 540 175 886 275 1071 l33 60 -34 45 c-125 163 -208 349 -243 546 l-17 95 -51 -56z"/> <path d="M4520 2990 c-2 -187 -92 -513 -205 -740 l-32 -65 29 -85 c60 -179 138 -537 183 -845 9 -60 18 -120 20 -132 9 -38 78 -42 89 -5 15 48 66 417 77 552 15 194 6 623 -15 776 -28 199 -90 462 -131 556 l-14 33 -1 -45z"/> </g> </svg> 
                 </div>
             </div>
@@ -67,7 +81,7 @@
 
             <div class="service" ref="beard">
                 <div class="iconContainer">
-                    <svg class="circle" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M32 100.641C32 68.391 54.1651 41.3515 84 34.1102V1.28125C36.3772 8.98855 0 50.5392 0 100.641C0 150.742 36.3772 192.293 84 200V167.171C54.1651 159.93 32 132.89 32 100.641ZM200 100.641C200 150.742 163.623 192.293 116 200V167.171C145.835 159.93 168 132.89 168 100.641C168 68.391 145.835 41.3515 116 34.1102V1.28125C163.623 8.98855 200 50.5392 200 100.641Z"/> <defs> <linearGradient id="paint0_linear_231_555" x1="157.5" y1="33.0763" x2="44.7421" y2="148.561" gradientUnits="userSpaceOnUse"> <stop offset="0.0509862" stop-color="#FFB6E1"/> <stop offset="1" stop-color="#FBE3EA"/> </linearGradient> </defs> </svg>
+                    <svg class="circle" id="p" width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M32 100.641C32 68.391 54.1651 41.3515 84 34.1102V1.28125C36.3772 8.98855 0 50.5392 0 100.641C0 150.742 36.3772 192.293 84 200V167.171C54.1651 159.93 32 132.89 32 100.641ZM200 100.641C200 150.742 163.623 192.293 116 200V167.171C145.835 159.93 168 132.89 168 100.641C168 68.391 145.835 41.3515 116 34.1102V1.28125C163.623 8.98855 200 50.5392 200 100.641Z"/> <defs> <linearGradient id="paint0_linear_231_555" x1="157.5" y1="33.0763" x2="44.7421" y2="148.561" gradientUnits="userSpaceOnUse"> <stop offset="0.0509862" stop-color="#FFB6E1"/> <stop offset="1" stop-color="#FBE3EA"/> </linearGradient> </defs> </svg>
                     <svg class="serviceIcon" version="1.0" xmlns="http://www.w3.org/2000/svg"  width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"  preserveAspectRatio="xMidYMid meet"> <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#000000" stroke="none"> <path d="M4613 3968 c-6 -7 -24 -71 -42 -143 -40 -166 -110 -388 -168 -535 -161 -409 -470 -859 -658 -957 -33 -17 -211 -84 -395 -149 l-335 -118 -105 -1 c-104 0 -106 0 -200 45 -93 44 -97 45 -195 45 -94 0 -105 -3 -180 -37 -105 -48 -185 -62 -268 -48 -63 12 -579 226 -667 277 -55 32 -203 174 -281 269 -193 236 -353 558 -543 1098 -72 203 -89 232 -123 210 -17 -11 -18 -67 -18 -960 0 -1059 -4 -998 71 -1162 60 -131 176 -269 294 -349 86 -57 1466 -801 1530 -824 56 -20 84 -24 200 -23 120 0 142 3 203 26 63 24 1390 713 1541 801 81 47 202 158 262 243 51 71 96 163 127 260 22 69 22 72 25 1043 2 723 0 977 -9 987 -14 17 -53 18 -66 2z"/> <path d="M831 3699 c-23 -66 -32 -199 -21 -296 21 -173 76 -299 176 -397 252 -249 769 -335 1126 -186 178 74 324 203 401 354 l24 48 38 -69 c59 -105 196 -237 311 -295 297 -153 677 -151 1000 7 155 75 247 161 309 289 59 123 79 224 73 375 -3 64 -12 134 -19 156 -12 35 -18 40 -44 40 -25 0 -35 -9 -66 -56 -74 -111 -186 -188 -334 -231 -64 -18 -103 -22 -195 -21 -184 1 -322 52 -584 213 -135 83 -179 100 -260 100 -77 0 -152 -34 -196 -90 l-31 -39 -42 46 c-55 60 -105 83 -184 83 -82 0 -133 -20 -285 -113 -246 -151 -380 -199 -563 -200 -231 -2 -425 93 -530 258 -30 46 -40 55 -64 55 -23 0 -31 -6 -40 -31z"/> </g> </svg>
                 </div>
             </div>
@@ -79,10 +93,15 @@
                 </div>
             </div>
 
+            <div class="spacer"></div>
+
         </section>
 
         <section id="references">
-            <h1 class="title">Referenciák</h1>
+            <div class="titleBox">
+                <h1 class="title">Referenciák</h1>
+                <div class="smallLine"></div>
+            </div>
             <div id="cuts">
                 <div class="cut" v-for="item in cuts" :key="item.id" :style="getBackgroundImage(item)"></div>
             </div>
@@ -162,7 +181,7 @@ export default {
                 this.lineBg = "#5800ff"
                 this.textColor = "#5800ff"
                 this.shownSvg = 3
-            } else if (this.firstServiceTop + 85 < -1760 && this.firstServiceTop + 85 > -2500) {
+            } else if (this.firstServiceTop + 85 < -1760 && this.firstServiceTop + 85 > -2370) {
                 this.titleH1 = "Haj + Szakáll"
                 this.setPrices('hairAndBeard')
                 this.lineBg = "#ffc600"
@@ -190,24 +209,6 @@ export default {
 </script>
 
 <style scoped>
-    .cut{
-        width: 500px;
-        height: 500px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        box-shadow: 1px 1px 10px var(--purpleColor);
-        border-radius: 25%;
-    }
-
-    #cuts{
-        display: flex;
-        justify-content: space-around;
-        gap: 50px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-    }
     #topContent{
         display: flex;
         flex-direction: column;
@@ -230,7 +231,7 @@ export default {
         -webkit-text-fill-color: transparent;
     }
 
-    #cut{
+    #heroGlyph{
         position: absolute;
         bottom: -30%;
         right: 25%;
@@ -247,7 +248,7 @@ export default {
     }
 
     #headerContainer h1{
-        font-size: 15vw;
+        font-size: clamp(45px,3vw + 1rem,80px);
         margin: 0;
     }
 
@@ -256,7 +257,6 @@ export default {
         background-color: transparent;
         border: 2px solid var(--purpleColor);
         border-radius: 0;
-        box-sizing: border-box;
         cursor: pointer;
         display: inline-block;
         font-weight: 700;
@@ -278,7 +278,7 @@ export default {
         content: " ";
         width: 1.5625rem;
         height: 2px;
-        background: black;
+        background: var(--blackColor);
         top: 50%;
         left: 1.5em;
         position: absolute;
@@ -330,17 +330,17 @@ export default {
     }
 
     .appointmentBtn:hover {
-        color: white;
-        background: black;
+        color: var(--grayColor);
+        background: var(--blackColor);
     }
 
     .appointmentBtn:hover::before {
         width: 0.9375rem;
-        background: white;
+        background: var(--grayColor);
     }
 
     .appointmentBtn:hover .text {
-        color: white;
+        color: var(--grayColor);
         padding-left: 1.5em;
     }
 
@@ -376,11 +376,16 @@ export default {
         opacity: 0.3;
     }
     
-    #titleBox{
+    .titleBox{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #services .titleBox{
         position: -webkit-sticky;
         position: sticky;
         top: 10%;
-        z-index: 7;
+        z-index: 4;
         display: flex;
         flex-direction: column;
     }
@@ -391,7 +396,7 @@ export default {
         margin: 0 40px;
     }
 
-    #smallLine{
+    .smallLine{
         background-color: var(--yellowColor);
         width: 30%;
         height: 15px;
@@ -408,7 +413,7 @@ export default {
         width: 100vw;
         height: 388px;
         z-index: 3;
-        background-color: #EAEAEA;
+        background-color: var(--grayColor);
         text-align: center;
         font-size: 30px;
     }
@@ -433,7 +438,22 @@ export default {
         flex-wrap: wrap;
         max-height: 388px;
     }
-    
+
+    #barbers div{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .barberPic{
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .barber{
         font-size: 30px;
     }
@@ -458,10 +478,6 @@ export default {
         background-size: 100%;
     }
 
-    .service:nth-child(odd) .circle{
-        fill: var(--purpleColor)
-    }
-
     .iconContainer{
         --iconSize: 90px;
         width: fit-content;
@@ -471,12 +487,17 @@ export default {
         margin-left: auto;
     }
 
+
     .circle{
         fill: var(--yellowColor);
         transform: rotate(-75deg);
         opacity: 0.7;
         width: 100%;
         height: 100%
+    }
+
+    #p{
+        fill: var(--purpleColor);
     }
 
     .serviceIcon{
@@ -494,8 +515,73 @@ export default {
     h2 span{
         text-shadow: 2px 2px 10px black;
     }
+
+    #services .spacer{
+        height: 500px;
+    }
+
+    #bottom{
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+        width: 100vw;
+        background-color: var(--grayColor);
+        z-index: 5;
+        text-align: center
+    }
      
+    #bottom h1{
+        font-size: 50px;
+    }
+
+    #bottom .appointmentBtn{
+        border-color: var(--yellowColor);
+        scale: 1.2;
+    }
+
     /*=====  End of Style of the services section  ======*/
+
+    
+    /*=============================================
+    =            Style of the references            =
+    =============================================*/
+
+    #references{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cuts{
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .cut{
+        width: 300px;
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 1px 1px 20px var(--purpleColor);
+        border-radius: 25%;
+    }
+
+    #references .titleBox .smallLine{
+        background-color: var(--purpleColor);
+    }
+    
+    /*=====  End of Style of the references  ======*/
+    
+    
     
     
 
@@ -503,37 +589,28 @@ export default {
     /*----------  Media Queries  ----------*/
 
     @media only screen and (orientation: landscape) and (max-width: 1000px) {
-        #cut{
+        #heroGlyph{
             display: none;
         }
     }
     
     @media only screen and (min-width: 450px) {
-        #headerContainer h1{
-            font-size: 13vw;
-        }
-        #cut{
+        #heroGlyph{
             right: 40%;
         }
     }
 
     @media only screen and (min-width: 550px) {
-        #headerContainer h1{
-            font-size: 9vw;
-        }
     }
 
     @media only screen and (min-width: 600px) {
-        #cut{
+        #heroGlyph{
             right: 55%;
         }  
     }
 
     @media only screen and (min-width: 700px) {
-        #headerContainer h1{
-            font-size: 7vw;
-        }
-        #cut{
+        #heroGlyph{
             right: 60%;
             bottom: -65%;
         }
@@ -545,15 +622,12 @@ export default {
             padding-left: 5%;
             border-radius: 25px;
         }
-        #headerContainer h1{
-            font-size: 7vw;
-        }
         #hugeText{
             background: radial-gradient(circle, rgba(89, 0, 255, 0.6) 0%, rgba(234,234,234,1) 100%);
             background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        #cut{
+        #heroGlyph{
             right: -50%;
             bottom: -180%;
         }
@@ -575,13 +649,14 @@ export default {
         #box{
             height: 97px;
         }
+        .cut{
+            width: 450px;
+            height: 450px;
+        }
     }
 
     @media only screen and (min-width: 800px) {
-        #headerContainer h1{
-            font-size: 7vw;
-        }
-        #cut{
+        #heroGlyph{
             opacity: 1;
             right: -50%;
             bottom: -170%;
@@ -589,20 +664,14 @@ export default {
     }
 
     @media only screen and (min-width: 900px) {
-        #headerContainer h1{
-            font-size: 6vw;
-        }
-        #cut{
+        #heroGlyph{
             right: -35%;
         }
     }
     
     
     @media only screen and (min-width: 992px) {
-        #headerContainer h1{
-            font-size: 6vw;
-        }
-        #cut{
+        #heroGlyph{
             right: -30%;
             bottom: -150%;
         }
@@ -613,30 +682,27 @@ export default {
     }
 
     @media only screen and (min-width: 1050px) {
-        #cut{
+        #heroGlyph{
             bottom: -90%;
             right: -30%;
         }
     }
 
     @media only screen and (min-width: 1150px) {
-        #cut{
+        #heroGlyph{
             bottom: -90%;
             right: -25%;
         }
     }
 
     @media only screen and (min-width: 1200px) {
-        #headerContainer h1{
-            font-size: 4vw;
-        }
-        #cut{
-            right: -5%;
+        #heroGlyph{
+            right: -8%;
         }
     }
 
     @media only screen and (min-width: 1440px) {
-        #cut{
+        #heroGlyph{
             right: 5%;
         }
     }
