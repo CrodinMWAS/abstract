@@ -2,7 +2,9 @@
    <nav>
         <div class="tooltip-container">
             <span class="tooltip">Főoldal</span>
-            <div id="logo" class="icon"></div>
+            <router-link to="/">
+                <div id="logo" class="icon"></div>
+            </router-link>
         </div>
 
         <div class="tooltip-container">

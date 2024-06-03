@@ -25,12 +25,14 @@
 
             <div id="bottom">
                 <h1>Jelentkezz be, és mentsd el az adataidat!</h1>
-                <a class="appointmentBtn" href="#">
-                    <span class="top-key"></span>
-                    <span class="text">Bejelentkezés</span>
-                    <span class="bottom-key-1"></span>
-                    <span class="bottom-key-2"></span>
-                </a>
+                <router-link to="/login">
+                    <a class="appointmentBtn" href="#">
+                        <span class="top-key"></span>
+                        <span class="text">Bejelentkezés</span>
+                        <span class="bottom-key-1"></span>
+                        <span class="bottom-key-2"></span>
+                    </a>
+                </router-link>
             </div>
 
             <div class="titleBox">
@@ -184,10 +186,17 @@ export default {
         }
     },
     created() {
-        window.addEventListener('scroll',() => {
-            this.firstServiceTop = document.getElementsByClassName("service")[0].getBoundingClientRect().top;
+    this.handleScroll = () => {
+        const serviceElement = document.getElementsByClassName("service")[0];
+        if (serviceElement) {
+            this.firstServiceTop = serviceElement.getBoundingClientRect().top;
             this.displayPrice();
-        })
+        }
+    };
+    window.addEventListener('scroll', this.handleScroll);
+    },
+    beforeUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
     },
     methods: {
         getBackgroundImage(item) {
@@ -747,10 +756,6 @@ export default {
         #heroGlyph{
             right: 40%;
         }
-    }
-
-    @media only screen and (min-width: 550px) {
-
     }
 
     @media only screen and (min-width: 600px) {

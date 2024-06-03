@@ -3,9 +3,9 @@
         <img class="logo" src="../assets/Abstract_Logo_Black.jpg" alt="Abstract Logo." title="Abstract Logo.">
         <div id="info">
             <div>    
-                <h1>Telefon: +36 30 446 05 54</h1>
-                <h2>Email: szabo.erik43@gmail.com</h2>
-                <h3>© 2024 - Minden Jog Fenntartva</h3>
+                <h1> <span>Telefon:</span> +36 30 446 05 54</h1>
+                <h2> <span>Email:</span> szabo.erik43@gmail.com</h2>
+                <h3> <span>© 2024</span> - Minden Jog Fenntartva</h3>
             </div>
 
             <div id="icons">
@@ -60,6 +60,10 @@
         cursor: pointer;
         scale: 1.2;
         filter: grayscale(100%);
+    }
+
+    footer span{
+        color: var(--purpleColor);
     }
 
     @media only screen and (min-width: 768px) {
