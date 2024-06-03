@@ -44,22 +44,22 @@
 
             <div id="barbers">
             <div>
-                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/OlahDani.png')})`, outline: `2px solid ${lineBg}` }"></div>
+                <div class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/OlahDani.png')})`, outline: `${outlinePixels} solid ${lineBg}` }"></div>
                 <h1 class="barber">Oláh Dani</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceDani }}</span> Ft</h2>
             </div>
             <div>
-                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/SzaboMark.jpg')})`, outline: `2px solid ${lineBg}` }" ></div>
+                <div class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/SzaboMark.jpg')})`, outline: `${outlinePixels} solid ${lineBg}` }" ></div>
                 <h1 class="barber">Szabó Márk</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceMark }}</span> Ft</h2>
             </div>
             <div>
-                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/SzaboErik.jpg')})`, outline: `2px solid ${lineBg}` }" ></div>
+                <div class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/SzaboErik.jpg')})`, outline: `${outlinePixels} solid ${lineBg}` }" ></div>
                 <h1 class="barber">Szabó Erik</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceErik }}</span> Ft</h2>
             </div>
             <div>
-                <div v-if="textColor != 'transparent'" class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/VeressMilan.jpg')})`, outline: `2px solid ${lineBg}` }" ></div>
+                <div class="barberPic"  :style="{ backgroundImage: `url(${require('@/assets/Barbers/VeressMilan.jpg')})`, outline: `${outlinePixels} solid ${lineBg}` }" ></div>
                 <h1 class="barber">Veress Milán</h1>
                 <h2 :class="{hidden: textColor == 'transparent'}"><span :style="{color: lineBg}">{{ actualPriceMilan }}</span> Ft</h2>
             </div>
@@ -106,18 +106,50 @@
                 <div class="cut" v-for="item in cuts" :key="item.id" :style="getBackgroundImage(item)"></div>
             </div>
         </section>
+
+        <section id="aboutUs">
+            <div class="titleBox">
+                <h1 class="title">Mi vagyunk az <span class="abstract">ABSTRACT</span></h1>
+                <div class="smallLine"></div>
+            </div>
+            <div id="content">
+                <div id="picHolder">
+                    <img id="teamPic" src="../assets/TeamAbstract.jpg" alt="Az Abstract csapata" title="Az Abstract csapata">
+                </div>
+                <p>Csapatunk <i> 2023. november 13-án</i> alakult, azzal a céllal,
+                    hogy egyedülálló élményt nyújtsunk vendégeinknek. 
+                    Szeretnénk, hogy amikor nálunk jártok nemcsak egy hajvágásért jönnétek,
+                    hanem az <strong>élményért</strong>, amit az <span class="abstract">ABSTRACT</span> ad nektek. 
+                    Mindannyiunk közös célja és értékrendje, 
+                    hogy minden vendégünk elégedetten távozzon, 
+                    és újra visszatérjen hozzánk. Együtt dolgozunk azon, 
+                    hogy professzionális szolgáltatásainkkal és barátságos 
+                    hozzáállásunkkal <b>felejthetetlenné</b> tegyük minden látogatásotokat.
+                </p>
+            </div>
+            <h2 class="title smallTitle">Tudj meg rólunk többet!</h2>
+            <a class="appointmentBtn" href="#">
+                    <span class="top-key"></span>
+                    <span class="text">Rólunk</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+            </a>
+        </section>
     </main>
     <!-- <CalendarComponent></CalendarComponent> -->
+    <FooterComponent></FooterComponent>
 </template>
 
 <script>
 // import CalendarComponent from "@/components/ReservationsComponent.vue";
 import NavComponent from "@/components/NavComponent.vue";
+import FooterComponent from "@/components/FooterComponent.vue";
 
 export default {
     components:{
         // CalendarComponent,
         NavComponent,
+        FooterComponent,
     },
     data() {
         return {
@@ -148,6 +180,7 @@ export default {
                 "C8.jpeg",
                 "C9.jpeg"
             ],
+            outlinePixels: '0px',
         }
     },
     created() {
@@ -163,12 +196,13 @@ export default {
             };
         },
         displayPrice(){
-            if (this.firstServiceTop + 85 < 220 && this.firstServiceTop + 85 > -440) {
+            if (this.firstServiceTop + 85 < 420 && this.firstServiceTop + 85 > -440) {
                 this.titleH1 = "Hajvágás"
                 this.setPrices('hair')
                 this.lineBg = "#5800ff"
                 this.textColor = "#5800ff"
                 this.shownSvg = 1
+                this.outlinePixels = "2px"
             } else if (this.firstServiceTop + 85 < -440 && this.firstServiceTop + 85 > -1100) {
                 this.titleH1 = "Hosszú Hajvágás"
                 this.setPrices('longHair')
@@ -187,6 +221,7 @@ export default {
                 this.lineBg = "#ffc600"
                 this.textColor = "#ffc600"
                 this.shownSvg = 4
+                this.outlinePixels = "2px"
             } else {
                 this.titleH1 = "Szolgáltatásaink"
                 this.actualPriceDani = 0
@@ -196,6 +231,7 @@ export default {
                 this.lineBg = "#ffc600"
                 this.textColor = "transparent"
                 this.shownSvg = 0
+                this.outlinePixels = "0px"
             }
         },
         setPrices(serviceType) {
@@ -272,6 +308,7 @@ export default {
         transition: all 0.3s ease-in-out;
         user-select: none;
         font-size: 13px;
+        font-family: "Roboto Mono", monospace;
     }
 
     .appointmentBtn::before {
@@ -369,9 +406,10 @@ export default {
     .bigIcon{
         position: -webkit-sticky;
         position: sticky;
-        top: 0;
+        top: 15%;
+        left: 30%;
         width: 30vw;
-        height: 100vh;
+        height: 50vh;
         z-index: -5;
         opacity: 0.3;
     }
@@ -391,7 +429,7 @@ export default {
     }
     
     .title{
-        font-size: clamp(42px, 8vw + 1rem, 60px);
+        font-size: clamp(42px, 7vw + 1rem, 60px);
         text-align: left;
         margin: 0 40px;
     }
@@ -403,6 +441,10 @@ export default {
         margin: 0 53% 10% 53%;
         border-radius: 20px;
     }
+
+    #p{
+        fill: var(--purpleColor)
+    }
     
     .hidden{
         opacity: 0;
@@ -411,7 +453,7 @@ export default {
     #box{
         position: absolute;
         width: 100vw;
-        height: 388px;
+        height: 400px;
         z-index: 3;
         background-color: var(--grayColor);
         text-align: center;
@@ -425,11 +467,10 @@ export default {
 
     #barbers{
         display: flex;
-        align-items: center;
         justify-content: space-around;
         flex-direction: column;
         text-align: center;
-        width: 70%;
+        width: 90%;
         margin: 0 auto;
         position: sticky;
         position: -webkit-sticky;
@@ -446,8 +487,8 @@ export default {
     }
 
     .barberPic{
-        width: 125px;
-        height: 125px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -464,6 +505,22 @@ export default {
 
     #barbers h2{
         font-size: 25px;
+    }
+    #barbers span{
+        font-family: 'Gloria Hallelujah';
+    }
+
+    .scroll-snap-container {
+        width: 100vw;
+        height: 100vh;
+        background-color: red;
+    }
+
+    .item{
+        width: 100vw;
+        height: 100vh;
+        border: 2px solid white;
+        background-color: blue;
     }
     
     .service{
@@ -494,10 +551,6 @@ export default {
         opacity: 0.7;
         width: 100%;
         height: 100%
-    }
-
-    #p{
-        fill: var(--purpleColor);
     }
 
     .serviceIcon{
@@ -582,10 +635,106 @@ export default {
     /*=====  End of Style of the references  ======*/
     
     
+    /*=============================================
+    =            Style of the About us Section            =
+    =============================================*/
     
-    
+    #aboutUs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--grayColor);
+        background-color: var(--blackColor);
+        margin-top: 50px;
+        box-shadow: 2px 2px 20px 10px rgba(33, 33, 33, 1)
+    }
+    #aboutUs .title{
+        text-align: center;
+        margin: 0 auto;
+    }
 
-    
+    #aboutUs .title span{
+        font-family: "Major Mono Display", monospace;
+        background: radial-gradient(circle, rgba(89, 0, 255, 1) 0%, var(--grayColor) 120%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #aboutUs .smallLine{
+        background-color: var(--blueColor);
+        margin: 0 53% 5% 53%;
+    }
+
+    #content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #picHolder{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+    }
+    #teamPic{
+        width: 100%;
+        max-width: 700px;
+        max-height: 700px;
+        box-shadow: 2px 2px 20px 10px rgba(0, 231, 252, 0.5);
+        margin-bottom: 50px;
+    }
+
+    #content p{
+        font-size: x-large;
+        max-width: 1050px;
+        margin: 0 auto;
+        text-align: center;
+        letter-spacing: 2px;
+        line-height: 50px;
+        font-family: "Roboto Mono", monospace;
+    }
+
+    #content p .abstract{
+        font-weight: 900;
+    }
+
+    #content p i{
+        text-decoration: underline var(--yellowColor);
+    }
+
+    #content p strong{
+        color: var(--blueColor);
+    }
+
+    #content p b{
+       color: var(--yellowColor);
+    }
+
+    #aboutUs .smallTitle{
+        font-size: clamp(45px,3vw + 1rem,80px);
+        margin: 20px;
+    }
+
+    #aboutUs .appointmentBtn{
+        border: 2px solid var(--blueColor);
+        scale: 1.2;
+        margin: 2%;
+    }
+
+    #aboutUs .appointmentBtn .top-key,#aboutUs .appointmentBtn .bottom-key-1,#aboutUs .appointmentBtn .bottom-key-2 {
+        background: black;
+    }
+
+    #aboutUs .appointmentBtn::before{
+        background: var(--grayColor);
+    }
+
+    #aboutUs .appointmentBtn .text{
+        color: var(--grayColor);
+    }
+
+    /*=====  End of Style of the About us Section  ======*/
+
     /*----------  Media Queries  ----------*/
 
     @media only screen and (orientation: landscape) and (max-width: 1000px) {
@@ -601,6 +750,7 @@ export default {
     }
 
     @media only screen and (min-width: 550px) {
+
     }
 
     @media only screen and (min-width: 600px) {
@@ -613,6 +763,13 @@ export default {
         #heroGlyph{
             right: 60%;
             bottom: -65%;
+        }
+        .barberPic{
+            width: 85px;
+            height: 85px;
+        }
+        #box{
+            height: 200px;
         }
     }
 
@@ -636,7 +793,6 @@ export default {
             width: 100%;
             top: 50%;
             margin: 0;
-            max-height: 97px;
         }
         .title{
             margin-right: 15%;
@@ -647,11 +803,19 @@ export default {
             opacity: 1;
         }
         #box{
-            height: 97px;
+            height: 200px;
         }
         .cut{
             width: 450px;
             height: 450px;
+        }
+        .barberPic{
+            display: block;
+            width: 125px;
+            height: 125px;
+        }
+        .bigIcon{
+            left: 0%;
         }
     }
 

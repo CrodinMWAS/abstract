@@ -7,8 +7,11 @@
 <style>
   /*----------  Import for subfonts  ----------*/
   @import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Shadows+Into+Light&family=Shizuru&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
   /*----------  Main font import  ----------*/
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,200;0,300;0,400;0,600;0,900;1,200;1,400;1,600;1,900&display=swap");
+
 
   /*=============================================
   =            Basic Settings            =
@@ -25,6 +28,9 @@
   body {
     position: relative;
     font-family: "Roboto Condensed", sans-serif;
+    /* font-family: "Roboto Mono", monospace; */
+    /* font-family: "Major Mono Display", monospace; */
+    /* font-family: 'Gloria Hallelujah'; */
     color: var(--blackColor);
     margin: 0;
     padding: 0;
@@ -33,10 +39,6 @@
     background-position: center;
     background-size: cover;
     backdrop-filter: blur(3px);
-  }
-
-  html{
-    scroll-snap-type: mandatory;
   }
 
   #app {
@@ -48,9 +50,16 @@
     box-sizing: border-box;
   }
 
-  #logo {
+  .logo {
     background-image: url("@/assets/Abstract_Logo_Black.jpg");
     background-position: center; 
+  }
+
+  .abstract{
+    font-family: "Major Mono Display", monospace;
+    background: radial-gradient(circle, rgba(89, 0, 255, 1) 0%, var(--grayColor) 120%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   /*=====  End of Basic Settings  ======*/
 </style>
