@@ -97,7 +97,8 @@ export default {
         align-items: center;
         justify-content: center;
         width: 100vw;
-        height: 85vh;
+        overflow: hidden;
+        padding: 100px;
     }
     
     #loginContainer, #registrationContainer{
@@ -107,8 +108,8 @@ export default {
         justify-content: center;
         text-align: center;
         width: 90%;
+        height: fit-content;
         min-width: 550px;
-        height: 70%;
         background-color: var(--purpleColor);
         box-shadow: 2px 2px 10px var(--blackColor);
         gap: 35px;
