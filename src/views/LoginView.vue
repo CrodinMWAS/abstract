@@ -86,7 +86,7 @@ export default {
     },
     data() {
         return {
-            registrating: false,
+            registrating: true,
         }
     },
 }
@@ -120,8 +120,8 @@ export default {
 
     #infoArea{
         display: flex;
-        flex-direction: row;
-        gap: 50px;
+        flex-direction: column;
+        gap: 20px;
     }
     
     #infoArea .col{
@@ -308,6 +308,10 @@ export default {
     @media only screen and (min-width: 550px) {
         #loginContainer, #registrationContainer{
             width: 25%;
+        }
+        #infoArea{
+            flex-direction: row;
+            gap: 50px;
         }
     }
 </style>
