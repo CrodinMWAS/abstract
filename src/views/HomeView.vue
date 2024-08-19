@@ -130,12 +130,14 @@
                 </p>
             </div>
             <h2 class="title smallTitle">Tudj meg rólunk többet!</h2>
-            <a class="appointmentBtn" href="#">
+            <router-link to="/aboutUs">
+                <a class="appointmentBtn" href="#">
                     <span class="top-key"></span>
                     <span class="text">Rólunk</span>
                     <span class="bottom-key-1"></span>
                     <span class="bottom-key-2"></span>
-            </a>
+                </a>
+            </router-link>
         </section>
     </main>
     <!-- <CalendarComponent></CalendarComponent> -->
@@ -655,7 +657,8 @@ export default {
         color: var(--grayColor);
         background-color: var(--blackColor);
         margin-top: 50px;
-        box-shadow: 2px 2px 20px 10px rgba(33, 33, 33, 1)
+        box-shadow: 2px 2px 20px 10px rgba(33, 33, 33, 1);
+        padding-bottom: 50px;
     }
     #aboutUs .title{
         text-align: center;
