@@ -358,6 +358,7 @@ export default {
     .scroll-snap-container {
         width: 100vw;
         height: 90vh;
+        background-color: rgba(128, 128, 128, 0.15);
     }
 
     .item{
@@ -369,6 +370,7 @@ export default {
         height: 90vh;
         position: relative;
         border-radius: 25px;
+        margin-bottom: 10vh;
     }
 
     .bigIcon{
@@ -381,6 +383,8 @@ export default {
         font-size: clamp(42px, 7vw + 1rem, 60px);
         text-decoration: 10px underline var(--yellowColor);
         text-underline-offset: 20px;
+        margin: 0px;
+        margin-bottom: 30px;
     }
 
     #barbers{
