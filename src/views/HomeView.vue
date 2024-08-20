@@ -357,8 +357,10 @@ export default {
 
     .scroll-snap-container {
         width: 100vw;
-        height: 90vh;
+        height: 60vh;
         background-color: rgba(128, 128, 128, 0.15);
+        outline: 2px solid var(--blackColor);
+        border-radius: 25px;
     }
 
     .item{
@@ -367,7 +369,7 @@ export default {
         align-items: center;
         justify-content: space-evenly;
         width: 100vw;
-        height: 90vh;
+        min-height: 60vh;
         position: relative;
         border-radius: 25px;
         margin-bottom: 10vh;
@@ -416,8 +418,8 @@ export default {
     }
 
     .barberPic{
-        width: 75px;
-        height: 75px;
+        width: 50vw;
+        height: 50vw;
         border-radius: 50%;
         background-position: center;
         background-repeat: no-repeat;
@@ -639,10 +641,6 @@ export default {
             right: 60%;
             bottom: -65%;
         }
-        .barberPic{
-            width: 85px;
-            height: 85px;
-        }
     }
 
     @media only screen and (min-width: 768px) {
@@ -675,19 +673,24 @@ export default {
             right: 5%;
             top: 10%;
         }
+        .barberPic{
+            width: 15vw;
+            height: 15vw;
+        }
         .cut{
             width: 450px;
             height: 450px;
-        }
-        .barberPic{
-            display: block;
-            width: 125px;
-            height: 125px;
         }
         .bigIcon{
             left: 50%;
             transform: translateX(-50%);
             opacity: 0.3;
+        }
+        .scroll-snap-container {
+            height: 70vh;
+        }
+        .item{
+            min-height: 70vh;
         }
     }
 
